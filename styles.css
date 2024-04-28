@@ -14,23 +14,26 @@ body {
     background-color:  #1f2937;
     margin: 0;
     padding-left: 52px;
-    padding-right: 50px;
-    padding-bottom: 8px;
+    padding-right: 52px;
+    padding-bottom: 24px;
+    padding-top: 24px;
     flex: 1;
+    gap: 8px;
 }
+
 
 .nav_bar{
     display: flex;
     flex-direction: row;
     margin-top: 4px;
-    
+
   
 }
 
 ._bar_right{
     margin-left: auto;
     display: flex;
-    gap: 4px;
+    gap: 12px
 }
 
 a{
@@ -42,11 +45,12 @@ a{
 .header_content{
     display: flex;
     flex-direction: row;
-    gap: 8px
+    gap: 24px
 }
 
 .hc_content{
     flex: 1;
+   
     
 }
 .hc_img{
@@ -97,6 +101,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 12px;
 }
 
 .cc_list{
@@ -130,7 +135,8 @@ a{
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    padding: 50px;
+    padding: 60px;
+    margin-top: 12px;
 }
 
 .signup{
