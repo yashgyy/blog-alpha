@@ -55,6 +55,8 @@ a{
 }
 .hc_img{
     flex: 1;
+    flex-grow: 1;
+    
     
 }
 
@@ -88,6 +90,7 @@ a{
 
 .hc_img img{
     border-radius: 5%;
+    height: auto;
 }
 
 .content{
